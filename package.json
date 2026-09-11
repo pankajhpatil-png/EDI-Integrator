@@ -1,0 +1,33 @@
+{
+  "name": "xml-json-edi-mapping-tool",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--use-system-ca&& next dev --webpack",
+    "build": "next build",
+    "start": "set NODE_OPTIONS=--use-system-ca&& next start",
+    "lint": "eslint",
+    "test": "node --import tsx --test src/lib/**/*.test.ts"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "@xmldom/xmldom": "^0.9.12",
+    "@xyflow/react": "^12",
+    "basic-ftp": "^6.2.1",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "ftp-srv": "^4.6.3",
+    "tailwindcss": "^4",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}

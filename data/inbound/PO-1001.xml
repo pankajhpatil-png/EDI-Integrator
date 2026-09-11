@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrder>
+  <!--ISA*00*          *00*          *ZZ*RETAILERONE    *ZZ*SUPPLIERONE    *260908*1200*U*00401*000000001*0*P*:~-->
+  <Header>
+    <PoNumber>PO-1001</PoNumber>
+    <BuyerName>Acme Corp</BuyerName>
+    <OrderDate>20260815</OrderDate>
+  </Header>
+  <Line>
+    <LineNumber>1</LineNumber>
+    <Qty>4</Qty>
+    <Uom>EA</Uom>
+    <Sku>SKU-1</Sku>
+  </Line>
+  <Line>
+    <LineNumber>2</LineNumber>
+    <Qty>4</Qty>
+    <Uom>EA</Uom>
+    <Sku>SKU-2</Sku>
+  </Line>
+</PurchaseOrder>
