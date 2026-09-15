@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "set NODE_OPTIONS=--use-system-ca&& next dev --webpack",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "set NODE_OPTIONS=--use-system-ca&& next start",
     "lint": "eslint",
     "test": "node --import tsx --test src/lib/**/*.test.ts"
